@@ -32,13 +32,13 @@ Perform a complete bioinformatic analysis of the provided sequencing data, inclu
 
 You will submit a single ZIP file containing:
 
-- Source code of your implementation.
+- [ ] Source code of your implementation.
 
-- Annotated data files (VCF, MAF) showing the results of your analysis.
+- [X] Annotated data files (VCF, MAF) showing the results of your analysis.
 
-- A brief PDF report (3 - 4 pages) describing your analysis pipeline, interpretation of QC reports, obtained results, and interpretation of the findings.
+- [ ] A brief PDF report (3 - 4 pages) describing your analysis pipeline, interpretation of QC reports, obtained results, and interpretation of the findings.
 
-- A PowerPoint / Keynote presentation (slides) summarizing your analysis and results.
+- [ ] A PowerPoint / Keynote presentation (slides) summarizing your analysis and results.
 
 
 The project will be graded based on the following criteria:
