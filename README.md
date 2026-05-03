@@ -13,15 +13,15 @@ This analysis will help inform treatment decisions and provide insights into the
 
 Perform a complete bioinformatic analysis of the provided sequencing data, including the following steps:
 
-- [ ] Raw Data Quality Control: Assess the quality of the raw sequencing data.
+- [X] Raw Data Quality Control: Assess the quality of the raw sequencing data.
 
-- [ ] Read Alignment: Align the sequencing reads to the human reference genome.
+- [X] Read Alignment: Align the sequencing reads to the human reference genome.
 
-- [ ] Postprocessing: Clean and prepare the aligned reads for variant calling.
+- [X] Postprocessing: Clean and prepare the aligned reads for variant calling.
 
-- [ ] Post-Alignment Quality Control: Evaluate the quality of the aligned reads.
+- [X] Post-Alignment Quality Control: Evaluate the quality of the aligned reads.
 
-- [ ] Variant Calling: Identify somatic SNVs, indels, structural variants, and copy number variations.
+- [X] Variant Calling: Identify somatic SNVs, indels, structural variants, and copy number variations.
 
 - [ ] Post-Processing and Annotation: Filter and annotate the identified variants, and select those relevant to cancer.
 
@@ -32,7 +32,7 @@ Perform a complete bioinformatic analysis of the provided sequencing data, inclu
 
 You will submit a single ZIP file containing:
 
-- [ ] Source code of your implementation.
+- [X] Source code of your implementation.
 
 - [X] Annotated data files (VCF, MAF) showing the results of your analysis.
 
