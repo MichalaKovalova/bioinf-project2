@@ -232,12 +232,13 @@ library(maftools)
 maf <- read.maf("Tumor_Control.annotated.maf.gz")
 ```
 
-- [ ] Generate summary statistics
+- [X] Generate summary statistics
 ```
 plotmafSummary(maf = maf, addStat = 'median')
 ```
 
-- [ ] Visualize mutation patterns
+
+- [X] Visualize mutation patterns
 Since we have only one sample, 
 the oncoplot will show black lines 
 (multi-hit)for the top mutated genes. 
@@ -248,12 +249,12 @@ maf.titv <- titv(maf = maf, plot = FALSE)
 plotTiTv(res = maf.titv)
 ```
 
-- [ ] Visualise the position of mutations in a speciﬁc gene
+- [X] Visualise the position of mutations in a speciﬁc gene
 ```
 lollipopPlot(maf = maf, gene = "ADAM21")
 ```
 
-- [ ] Generate a rainfall plot and comparewith TCGA
+- [X] Generate a rainfall plot and comparewith TCGA
 visualize mutation distribution across the genome with rainfall plot
 and compare our sample's mutation burden with TCGA samples.
 ```
@@ -261,7 +262,7 @@ rainfallPlot(maf = maf)
 tcgaCompare(maf = maf, cohortName = "MySample", logScale = TRUE)
 ```
 
-- [ ] Filter out top 10 mutated genes and save them to a TSV ﬁle
+- [X] Filter out top 10 mutated genes and save them to a TSV ﬁle
 ```
 top.genes <- subsetMaf(maf, genes = getGeneSummary(maf)$Hugo_Symbol[1:10], mafObj = FALSE)
 write.table(top.genes, ﬁle = "top_10_mutated_genes.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
