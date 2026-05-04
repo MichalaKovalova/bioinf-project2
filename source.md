@@ -126,7 +126,7 @@ bcftools stats Tumor_Control.filtered.vcf.gz > Tumor_Control.filtered.vcf.stats
 plot-vcfstats -p plots/ Tumor_Control.filtered.vcf.stats
 ```
 
-## Somatic Structural Variant Calling
+## Structural Variant Calling
 ### Manta
 - [X] conﬁgure Manta SV caller
 ```
